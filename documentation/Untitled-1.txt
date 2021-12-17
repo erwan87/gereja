@@ -1,0 +1,25 @@
+Database Structure Gereja :
+
+- tbl_keluarga                      : id_keluarga|nama
+- tbl_detail_keluaraga              : id_detail_keluarga|id_keluarga|id_jemaat
+- tbl_jemaat                        : id_jemaat|nama_jemaat|alamat|tempat_lahir|tgl_lahir|jenis_kelamin|no_telp|email|id_lingkungan
+- tbl_lingkungan                    : id_lingkungan|nama_lingkungan
+- tbl_role                          : id_role|keterangan
+- tbl_user                          : id|nama|username|password|id_role
+- tbl_settings                      : id_settings|nama_aplikasi|alamat|no_telp
+- tbl_kegiatan                      : id_kegiatan|nama_kegiatan|tgl_kegiatan|keterangan|id_kegiatan_pic
+- tbl_kegiatan_pic                  : id_kegiatan_pic|nama_file
+- tbl_wilayah                       : id_wilayah|nama_wilayah
+- tbl_kegiatan_lingkungan           : id_kegiatan_lingkungan|tgl_kegiatan_lingkungan|lokasi|penanggungjawab|wilayah
+- tbl_pendeta                       : id_pendeta|nama_pendeta|alamat|no_telp|email
+- tbl_jadwal                        : id_jadwal|tgl_misa|id_keterangan_waktu
+- tbl_keterangan_waktu              : id_keterangan|nama_keterangan
+- tbl_detail_jadwal                 : id_detail_jadwal|id_jadwal|id_pendeta|keterangan
+- tbl_kegiatan_ibadah               : id_kegiatan_misa|nama_kegiatan_ibadah|injil_1|injil2|keterangan
+
+yang masih belom jelas
+
+laporan mingguan dll kui isi ne opo
+laporan data keungan kui isi ne opo
+data organisasi mbek data majelis opo
+laporan majelis isi ne opo
